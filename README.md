@@ -1,8 +1,9 @@
 # Face detection with YOLOv5
 
 The provided notebook uses the [WIDER FACE](http://shuoyang1213.me/WIDERFACE/) dataset to train and yolov5s model to detect faces.
-The notebook was created in Google Colab and can be accessed directly in Colab here: 
+The notebook was created in Google Colab and can be accessed [here](https://colab.research.google.com/drive/1kQkioaIgxtNrFtT349VLqNhW-wiQxwM1?usp=sharing).
+The trained model can be downloaded from Google Drive [here](https://drive.google.com/file/d/18VJoBepSDGoTgS9pDmwwUBOLXpJkH6h1/view?usp=sharing).
 
-To make the notebook run locally, remove the google.colab import and the files.download(line)
+The notebook will also run locally with slight modifications: remove any functions / imports that use google drive, delete the first code block in the Detect section, and set --source 0 in the following code block.
 
 The notebook includes a detection section that uses the webcam to predict the presence of faces.
